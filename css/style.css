@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #bff6fa;
+}
+
+#projects {
+  background-color: #bff6fa;
+}
+
+.card {
+  transition: 2s;
+}
+.card:hover {
+  position: absolute;
+  width: 27.7%;
+}
+
+section {
+  padding-top: 5rem;
+}
