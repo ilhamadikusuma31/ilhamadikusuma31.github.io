@@ -15,8 +15,12 @@ body {
   transition: 0.5s;
 }
 .card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 section {
   padding-top: 5rem;
+}
+
+.card.bugm {
+  background-image: url("../img/bugm.png");
 }
