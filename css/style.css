@@ -20,11 +20,11 @@ body {
 section {
   padding-top: 5rem;
 }
-.card a {
+.card .btn {
   color: rgb(228, 255, 243);
   background-color: rgb(61, 207, 195);
 }
-.card a:hover {
+.card .btn:hover {
   color: rgb(86, 131, 111);
   background-color: aquamarine;
 }
