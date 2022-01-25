@@ -15,8 +15,16 @@ body {
   transition: 0.5s;
 }
 .card:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.01, 1.01);
 }
 section {
   padding-top: 5rem;
+}
+.card a {
+  color: rgb(228, 255, 243);
+  background-color: rgb(61, 207, 195);
+}
+.card a:hover {
+  color: rgb(86, 131, 111);
+  background-color: aquamarine;
 }
