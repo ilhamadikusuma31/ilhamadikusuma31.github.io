@@ -10,6 +10,10 @@ body {
   background-color: #bff6fa;
   /* margin-bottom: 10px */
 }
+#certificates {
+  background-color: #bff6fa;
+  /* margin-bottom: 10px */
+}
 
 .card {
   transition: 0.5s;
