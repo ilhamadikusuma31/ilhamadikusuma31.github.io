@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         utama: '#14b8a6',
         gelap: '#0f172a',
+        kedua: '#64748b',
       },
 
       screens: {
