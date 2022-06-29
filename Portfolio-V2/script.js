@@ -12,6 +12,9 @@ window.onscroll = function () {
 
 //Hamburger
 const hamburger = document.querySelector('#hamburger');
+const navMenu = document.querySelector('#nav-menu');
 hamburger.addEventListener('click', function () {
-    hamburger.classList.toggle('aktif-hamburger')
+    hamburger.classList.toggle('aktif-hamburger');
+    navMenu.classList.toggle('hidden');
+
 });
