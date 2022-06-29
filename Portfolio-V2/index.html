@@ -6,9 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="output.css">
+    <title>Portfolio | Ilham Adikusuma</title>
 </head>
 
 <body>
+    <!-- header -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+
+                <div class="px-4">
+                    <a href="#" class="font-bold text-lg text-utama block py-6">Ilham</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" class="block absolute right-4">
+                        <!-- origin: memindahkan titik pusat untuk berputar -->
+                        <span class="garis-hamburger transition duration-300 ease-in-out origin-top-left "></span>
+                        <span class="garis-hamburger transition duration-300 ease-in-out"></span>
+                        <span class="garis-hamburger transition duration-300 ease-in-out origin-bottom-left "></span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- header -->
+
     <!-- Hero Section -->
     <section id="home" class="pt-36">
         <div class="container">
@@ -35,7 +61,7 @@
 
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="mt-10 relative lg:mt-0 lg:right-0">
-                        <img class="max-w-full mx-auto" src="img/ilham_jas_almet.png" alt="ilham">
+                        <img class="max-w-full mx-auto lg:mt-1" src="img/ilham_jas_almet.png" alt="ilham">
                         <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-150">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#14B8A6"
@@ -64,12 +90,12 @@
                         the Programming Lab
                         I really like programming, especially in the field of web
                         and game development.</p>
-                    <p class="font-medium text-kedua max-w-xl mb-4">
+                    <p class="font-medium text-kedua max-w-xl mb-4 lg:text-lg">
                         For the web, I'm currently enjoying developing the web in full stack, I don't know in the future
-                        if I focus more on fe or not
+                        if I focus more on fe or be
                         I'm studying html,css, js(dom), jquery, bootstrap, tailwind, php, laravel and currently I'm also
                         learning node.js and mongoDB</p>
-                    <p class="font-medium text-kedua max-w-xl">
+                    <p class="font-medium text-kedua max-w-xl lg:text-lg">
                         For the game I started out of curiosity and on a whim using Godot, there are some that I did
                         using Godot then moved to Unity Engine to develop AR</p>
                 </div>
@@ -146,6 +172,9 @@
     </section>
 
     <!-- About Section -->
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
